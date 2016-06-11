@@ -98,7 +98,7 @@ ul {
   padding-top: 20px;
   text-align: justify;
 }
-button{
+button.btn-default{
  float: right;
 color: white;
 background: background-image: -o-linear-gradient(top, #045D8C 50%, #20282B 75%);
