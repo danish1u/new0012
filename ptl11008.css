@@ -10,7 +10,10 @@ background-image: -webkit-linear-gradient(top, #045D8C 50%, #20282B 75%);
 background-image: -ms-linear-gradient(top, #045D8C 50%, #20282B 75%);
 background-image: linear-gradient(to top, #045D8C 50%, #20282B 75%);
 }
-
+.mani-menue{
+  margin-left: -15px;
+max-width: 1024px;
+}
 .mani-menue li {
     float: left;
 }
@@ -81,7 +84,7 @@ ul {
 }
 .gmain{
   float: left;
-    width: 853px;
+    width: 740px;
     background: gray;
     color: white;
     padding-left: 21px;
@@ -95,8 +98,8 @@ ul {
   padding-top: 20px;
   text-align: justify;
 }
-.btn-default{
-  float: right;
+.btn-default a{
+ float: right;
 color: white;
 background: background-image: -o-linear-gradient(top, #045D8C 50%, #20282B 75%);
 background-image: -moz-linear-gradient(top, #045D8C 50%, #20282B 75%);
