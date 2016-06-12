@@ -84,13 +84,24 @@ ul {
 }
 .gmain{
   float: left;
-    width: 740px;
-    background: gray;
-    color: white;
-    padding-left: 21px;
-    font-size: 20px;
-    margin-top: 10px;
+        width: 687px;
+        background: gray;
+        color: white;
+        padding-left: 42px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 47px;
 }
+  @media only screen and (max-width: 880px){
+      .gmain{
+        width: 100%;
+        background: brown;
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 0px;
+      }
+    }
 .gmain p{
   margin-bottom: 0px;
 }
